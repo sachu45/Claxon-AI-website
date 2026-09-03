@@ -183,10 +183,14 @@ export function Ecosystem() {
 
             <BrandthisPreview swatch={swatch} onSwatch={setSwatch} />
 
-            <button className="btn-text" style={{ marginTop: 26 }}>
+            <a
+              className="btn-text"
+              href="https://www.brandthis.in"
+              style={{ marginTop: 26 }}
+            >
               Explore Brandthis
               <ArrowUpRight size={16} />
-            </button>
+            </a>
           </div>
         </Reveal>
       </div>

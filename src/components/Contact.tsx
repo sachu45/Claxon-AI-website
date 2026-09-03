@@ -3,7 +3,7 @@ import { ArrowRight, Copy, Check } from 'lucide-react';
 import { Reveal } from './ui/Reveal';
 import { MagneticButton } from './ui/Button';
 
-const EMAIL = 'hello@claxon.ai';
+const EMAIL = 'support@claxonai.in';
 
 export function Contact() {
   const [copied, setCopied] = useState(false);

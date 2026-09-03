@@ -336,8 +336,8 @@ h3 {
   justify-content: space-between;
   padding: 0 10px 0 18px;
 
-  background: rgba(12, 12, 15, 0.72);
-  border: 1px solid var(--line);
+  background: #ffffff;
+  border: 1px solid rgba(42, 47, 105, 0.18);
   border-radius: var(--radius-md);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
@@ -347,6 +347,12 @@ h3 {
   display: flex;
   align-items: center;
   background: transparent;
+}
+
+.nav .brand,
+.nav .desktop-nav button,
+.nav .mobile-menu {
+  color: #2a2f69;
 }
 
 .brand-logo {
@@ -365,7 +371,7 @@ h3 {
 .desktop-nav button {
   position: relative;
   padding: 9px 14px;
-  color: var(--muted);
+  color: #2a2f69;
   font-size: 13.5px;
   transition: color 0.2s ease;
 }
@@ -385,7 +391,7 @@ h3 {
 
 .desktop-nav button:hover,
 .desktop-nav button.active {
-  color: var(--text);
+  color: #000000;
 }
 
 .desktop-nav button:hover::after,
@@ -408,7 +414,7 @@ h3 {
   height: 40px;
   align-items: center;
   justify-content: center;
-  color: var(--text);
+  color: #2a2f69;
   border-radius: var(--radius-sm);
 }
 
@@ -421,8 +427,8 @@ h3 {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  background: rgba(14, 14, 17, 0.98);
-  border: 1px solid var(--line);
+  background: #ffffff;
+  border: 1px solid rgba(42, 47, 105, 0.18);
   border-radius: var(--radius-md);
   backdrop-filter: blur(20px);
 }
@@ -432,7 +438,7 @@ h3 {
   align-items: center;
   justify-content: space-between;
   padding: 15px 12px;
-  color: var(--text);
+  color: #2a2f69;
   text-align: left;
   font-size: 15px;
   border-radius: 10px;
@@ -1609,10 +1615,13 @@ footer {
   display: flex;
   align-items: center;
   gap: 9px;
+  padding: 8px 14px;
+  background: #ffffff;
+  border-radius: var(--radius-sm);
 }
 
 .footer-logo {
-  height: 18px;
+  height: 32px;
   width: auto;
   object-fit: contain;
 }
